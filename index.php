@@ -20,7 +20,7 @@ define(TPL_BASE_URL, $this->baseurl . '/templates/' . $this->template);
 
 <div id="page-wrapper" class="container_24">
 
-  <header class="grid_24">
+  <header class="grid_24 alpha omega">
     <div id="logo" class="grid_6 alpha">
       <span class="double-dot-logo">:</span>
       <h1>jookolas.ru</h1>
