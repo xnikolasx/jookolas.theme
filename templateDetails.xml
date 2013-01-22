@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="template" client="site">
+    <!-- Название шаблона -->
+    <name>jookolas</name>
+    <creationDate>January 2013</creationDate>
+    <author>xnikolasx</author>
+    <authorEmail>webglide.dev@yandex.ru</authorEmail>
+    <authorUrl>https://github.com/xnikolasx</authorUrl>
+    <copyright>Copyright (C) 2013 Open Source Matters, Inc. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later</license>
+    <!-- Версия шаблона -->
+    <version>0.0.1</version>
+    <!-- Описание шаблона -->
+    <description>TPL_JOOKOLAS_XML_DESCRIPTION</description>
+    <!-- Файлы из которых состоит шаблон -->
+    <files>
+        <!-- Можно указывать директории -->
+        <folder>css</folder>
+        <folder>language</folder>
+        <folder>javascript</folder>
+        <filename>index.html</filename>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+    </files>
+    <!-- Позиции модулей, используемые в шаблоне -->
+    <positions>
+        <position>top</position>
+        <position>left</position>
+        <position>right</position>
+        <position>footer</position>
+    </positions>
+    <!-- Установка/Удаление файлов локализации -->
+    <languages folder="language">
+        <language tag="ru-RU">ru-RU/ru-RU.tpl_mytemplate.ini</language>
+        <language tag="ru-RU">ru-RU/ru-RU.tpl_mytemplate.sys.ini</language>
+    </languages>
+    <!-- Параметры для шаблона -->
+    <config>
+        <fields name="params">
+            <fieldset name="advanced">
+                <field name="logo" type="media"
+                       label="TPL_JOOKOLAS_LOGO_LABEL"
+                       description="TPL_JOOKOLAS_FIELD_LOGO_DESC" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
