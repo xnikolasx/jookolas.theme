@@ -31,8 +31,8 @@
     </positions>
     <!-- Установка/Удаление файлов локализации -->
     <languages folder="language">
-        <language tag="ru-RU">ru-RU/ru-RU.tpl_mytemplate.ini</language>
-        <language tag="ru-RU">ru-RU/ru-RU.tpl_mytemplate.sys.ini</language>
+        <language tag="ru-RU">ru-RU/ru-RU.tpl_jookolas.ini</language>
+        <language tag="ru-RU">ru-RU/ru-RU.tpl_jookolas.sys.ini</language>
     </languages>
     <!-- Параметры для шаблона -->
     <config>
