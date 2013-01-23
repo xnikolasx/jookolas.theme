@@ -101,12 +101,6 @@ nav li a {
   border-bottom: #333 1px dotted;
 }
 
-.separator {
-  height: 1px !important;
-  width: 100% !important;
-  visibility: visible !important;
-}
-
 /* article */
 
 .article-block {
