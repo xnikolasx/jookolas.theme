@@ -23,7 +23,7 @@ define('TPL_BASE_URL', $this->baseurl . '/templates/' . $this->template);
   <header class="grid_24 alpha omega">
     <div id="logo" class="grid_6 alpha">
       <span class="double-dot-logo">:</span>
-      <h1>jookolas.ru</h1>
+      <h1>j<span class="fun">oO</span>kolas.ru</h1>
     </div>
     <nav class="grid_12 prefix_6 omega">
       <h4 class="outline-only">:navigation</h4>
@@ -52,20 +52,19 @@ define('TPL_BASE_URL', $this->baseurl . '/templates/' . $this->template);
 
   <div class="grid_8">
     <p>
-      Чтобы достичь простоты необходимо прорыть туннель в недрах сложности.
-    </p>
-  </div>
-
-  <div class="grid_8">
-    <p>
-      copyrights &copy; 2013 jookolas.ru<br />
       Простота - крайняя степень изощренности.
     </p>
   </div>
 
   <div class="grid_8">
     <p>
-      Чтобы быть по-настоящему простым нужно добраться до самой глубины.
+      copyrights &copy; 2013 <a href="/">jookolas.ru</a><br />
+    </p>
+  </div>
+
+  <div class="grid_8">
+    <p>
+      Jedi octokitty should be here.
     </p>
   </div>
 

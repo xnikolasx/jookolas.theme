@@ -23,6 +23,7 @@ a {
   color: #111;
   background: white;
   text-decoration: none;
+  padding: 2px;
 }
 
 a:hover {
@@ -36,7 +37,7 @@ a:hover {
   background-color: #000000;
   color: #EEEEEE;
   margin: 25px 0 0;
-  padding: 25px 0;
+  padding: 22px 0;
   text-align: center;
 }
 
@@ -53,6 +54,11 @@ a:hover {
   font-size: 2.8em;
   font-weight: normal;
   line-height: 1.1em;
+}
+
+#logo > h1 span.fun {
+  color: red;
+  font-size: 1.4em;
 }
 
 /* navigation */
@@ -117,12 +123,26 @@ nav li a {
   display: list-item;
   border-bottom: #333 1px dotted;
   margin: 5px 0;
-  padding: 5px 0;
+  padding: 5px 0 5px 5px;
+}
+
+article {
+  margin-bottom: 30px;
 }
 
 article, .article-info {
   font-size: 0.9em;
   line-height: 1.5em;
+}
+
+article h2 {
+  margin: 7px 0 -2px;
+  border-bottom: #333 dotted thin;
+  padding-bottom: 8px;
+}
+
+article h2 a {
+  padding: 7px;
 }
 
 article ul {
@@ -145,6 +165,10 @@ article em.image-info {
   margin-top: 10px;
 }
 
+p.read-more {
+  float: right;
+}
+
 p.read-more a {
   color: #fff;
   text-decoration: none;
@@ -156,6 +180,23 @@ p.read-more a {
 p.read-more a:hover {
   text-decoration: none;
   background: #aaa;
+}
+
+ul.pagenav {
+  list-style-type: none;
+}
+
+ul.pagenav li a {
+  padding: 5px;
+}
+
+ul.pagenav li.pagenav-prev {
+  float: left;
+}
+
+ul.pagenav li.pagenav-next {
+  float: right;
+  margin-right: 30px;
 }
 
 /* sidebar */
