@@ -84,16 +84,20 @@ nav li a {
 
 /* content */
 
-section > h4 {
+.breadcrumbs > a {
+  padding: 5px;
+}
+
+.breadcrumbs, section > h4 {
   font-size: 0.8em;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.5em;
-  margin: 10px 0 5px;
+  margin: 5px 0 5px;
   padding: 0 0 5px;
 }
 
-.separator, section > h4 {
+.breadcrumbs, .separator, section > h4 {
   border-bottom: #333 1px dotted;
 }
 

@@ -34,11 +34,12 @@ define('TPL_BASE_URL', $this->baseurl . '/templates/' . $this->template);
 
   <div id="content-wrapper" class="grid_24 alpha omega">
     <section class="grid_18 alpha">
+      <jdoc:include type="modules" name="middle" style="jookolas" />
       <jdoc:include type="message" />
       <jdoc:include type="component" />
     </section>
     <section class="grid_6 omega" id="sidebar">
-      <jdoc:include type="modules" name="right" style="xhtml" />
+      <jdoc:include type="modules" name="right" style="jookolas" />
     </section>
   </div>
   <div class="clear"></div><!-- /#content-wrapper -->

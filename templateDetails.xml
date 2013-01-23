@@ -15,6 +15,7 @@
     <!-- Файлы из которых состоит шаблон -->
     <files>
         <!-- Можно указывать директории -->
+        <folder>html</folder>
         <folder>css</folder>
         <folder>language</folder>
         <folder>javascript</folder>
@@ -26,6 +27,7 @@
     <positions>
         <position>top</position>
         <position>left</position>
+        <position>middle</position>
         <position>right</position>
         <position>footer</position>
     </positions>
