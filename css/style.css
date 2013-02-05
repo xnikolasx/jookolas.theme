@@ -165,6 +165,11 @@ article em.image-info {
   margin-top: 10px;
 }
 
+article p a, article ul.pagenav a {
+  border-bottom: dashed thin #333;
+  padding: 2px 2px 0;
+}
+
 p.read-more {
   float: right;
 }
@@ -175,6 +180,7 @@ p.read-more a {
   padding: 7px 9px;
   background: #111;
   letter-spacing: 0.4em;
+  border-bottom: none;
 }
 
 p.read-more a:hover {
