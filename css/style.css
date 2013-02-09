@@ -98,7 +98,7 @@ nav li a {
   font-size: 0.8em;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.4em;
   margin: 5px 0 5px;
   padding: 0 0 5px;
 }
@@ -229,6 +229,7 @@ ul.pagenav li.pagenav-next {
 
 #sidebar ul li > a {
   padding: 5px;
+  line-height: 18px;
 }
 
 #sidebar ul.tags {
