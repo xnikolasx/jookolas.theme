@@ -7,6 +7,7 @@
  */
 defined('_JEXEC') or die;
 define('TPL_BASE_URL', $this->baseurl . '/templates/' . $this->template);
+$doc = JFactory::getDocument()->setGenerator('');
 ?>
 <!DOCTYPE html>
 <html>
