@@ -28,6 +28,7 @@
         <position>top</position>
         <position>left</position>
         <position>middle</position>
+        <position>after_component</position>
         <position>right</position>
         <position>footer</position>
     </positions>

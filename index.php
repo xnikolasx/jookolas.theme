@@ -37,6 +37,7 @@ define('TPL_BASE_URL', $this->baseurl . '/templates/' . $this->template);
       <jdoc:include type="modules" name="middle" style="jookolas" />
       <jdoc:include type="message" />
       <jdoc:include type="component" />
+      <jdoc:include type="modules" name="after_component" style="jookolas" />
     </section>
     <section class="grid_6 omega" id="sidebar">
       <jdoc:include type="modules" name="right" style="jookolas" />
