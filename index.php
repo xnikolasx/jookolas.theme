@@ -60,7 +60,9 @@ $doc = JFactory::getDocument()->setGenerator('');
 
   <div class="grid_8">
     <p>
-      copyrights &copy; 2013 <a href="/">jookolas.ru</a><br />
+      При копировании материалов с моего сайта, установка ссылки на источник информации обязательна.<br />
+      Copyrights &copy; 2013 <a href="/">jookolas.ru</a><br />
+      (чисто теоретически ;) )
     </p>
   </div>
 
